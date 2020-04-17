@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nome, #cognome, #colore, #password {
+    display: none;
+    text-align: center;
+}
+
+#nome.visible, #cognome.visible, #colore.visible, #password.visible {
+    display: block;
+}
+
+#blu {
+    background-color: blue;
+}
+
+#rosso {
+    background-color: red;
+}
+
+#grigio {
+    background-color: grey;
+}
+
+#verde {
+    background-color: green;
+}
