@@ -13,6 +13,8 @@ document.getElementById('cognome-utente').innerHTML = cognome_utente;
 document.getElementById('colore-utente').innerHTML = colore_preferito_utente;
 document.getElementById('password-utente').innerHTML = nome_utente + cognome_utente + colore_preferito_utente + anno_corrente;
 
+document.getElementById('box').setAttribute('class', 'visible');
+document.getElementById('title').setAttribute('class', 'visible');
 document.getElementById('nome').setAttribute('class', 'visible');
 document.getElementById('cognome').setAttribute('class', 'visible');
 document.getElementById('colore').setAttribute('class', 'visible');

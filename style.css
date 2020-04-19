@@ -4,13 +4,32 @@
     box-sizing: border-box;
 }
 
-#nome, #cognome, #colore, #password {
+body {
+    background-color: darkslategrey;
+}
+
+#box {
+    width: 50%;
+    height: 80%;;
+    border: 1px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#box, #title,  #nome, #cognome, #colore, #password {
     display: none;
     text-align: center;
 }
 
-#nome.visible, #cognome.visible, #colore.visible, #password.visible {
+#box.visible, #title.visible,  #nome.visible, #cognome.visible, #colore.visible, #password.visible {
     display: block;
+}
+
+#black {
+    background-color: black;
+    color: white;
 }
 
 #blu {
@@ -27,4 +46,20 @@
 
 #verde {
     background-color: green;
+}
+
+#black, #blu, #rosso, #grigio, #verde {
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#box p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#box span {
+    font-weight: 400;
 }
